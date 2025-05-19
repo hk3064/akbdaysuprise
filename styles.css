@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+
+}   
+ 
+nav{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+
+li,ul,h1{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+li{
+    margin-right: 30px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+ul{
+    margin-left:60%
+}
+.Home {
+  height: 100vh;
+  background: url('image/shankara.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hi{
+    text-decoration: none;
+     background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius:20px;
+    padding: 10px;
+}
+
+.hi:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.About{
+    text-align: center;
+    background-color:lightblue;
+    color: black;
+    font-size:larger;
+    padding:40px;
+
+}
+.overlay1 img{
+    border-radius: 300px;
+    margin-left:30px;
+    margin-top: 80px;
+    transform: translateX(20px)
+    display= flex;
+
+}
+.overlay2 video{
+    border-radius: 300px;
+    margin-left:30px;
+    margin-top: 80px;
+    transform: translateX(20px)
+    display= flex;
+
+}
+
+.Contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size:larger;
+    padding:40px;
+}
+.Suprise{
+    text-align: center;
+    background-color:palevioletred;
+    color: white;
+    font-size:larger;
+    padding:40px;
+    ;
+}
+
+.Suprise h1{
+    margin-left: 20px;
+}
